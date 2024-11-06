@@ -60,7 +60,7 @@ invalid_json = """
 valid_user = validate_json_string(valid_json)
 print(valid_user)
 
-print("*" * 100)
+print( '*' * 150)
 
 # Example of incorrect data
 try:
