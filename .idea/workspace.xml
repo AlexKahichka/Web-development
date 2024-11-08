@@ -54,7 +54,7 @@
     "Python.task_1.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/User/PycharmProjects/Project_Flask/Pydantic",
+    "last_opened_file_path": "C:/Users/User/PycharmProjects/Project_Flask/Pydantic/sqlalchemy_project",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -343,7 +343,7 @@
       <option name="presentableId" value="Default" />
       <updated>1730847371362</updated>
       <workItem from="1730847372414" duration="6854000" />
-      <workItem from="1730908544987" duration="11403000" />
+      <workItem from="1730908544987" duration="12231000" />
     </task>
     <servers />
   </component>
