@@ -1,7 +1,7 @@
 from sqlalchemy import Column, Integer, String, Boolean, ForeignKey, Float
 from sqlalchemy.orm import relationship
 
-from sqlalchemy_project.hw4 import Base, engine
+from hw4 import Base, engine
 
 
 class Category(Base):
