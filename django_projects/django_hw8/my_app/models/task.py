@@ -15,7 +15,7 @@ class Task(models.Model):
         ('Done', 'Done'),
     ]
 
-    title = models.CharField(max_length=255)
+    title = models.CharField(max_length=255, unique_for_date=True)
     description = models.TextField()
     categories = models.ManyToManyField(Category)
     status = models.CharField(max_length=20, choices=STATUS_CHOICES, default='New')
