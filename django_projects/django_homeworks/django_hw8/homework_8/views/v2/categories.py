@@ -28,7 +28,6 @@ class CategoryViewSet(ModelViewSet):
         ]
         return Response(data=data, status=status.HTTP_200_OK)
 
-    # NOTE: В моем понимании, категории статичны в системе и должны менеджериться только админом
     def get_permissions(self):
         if self.request.method in SAFE_METHODS:
             self.permission_classes = [IsAuthenticatedOrReadOnly]
